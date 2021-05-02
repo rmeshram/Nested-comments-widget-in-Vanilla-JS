@@ -1,0 +1,59 @@
+.search-bar-input{
+  padding: 20px 60px;
+  width: 100%;
+  margin: auto;
+}
+
+#container {
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.comments-container {
+  width: 50%;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+}
+
+.comment-card{
+  width: 60%;
+  border: 1px solid silver;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.reply, .delete , .likes{
+  padding: 20px;
+  color: blue;
+}
+
+.submit {
+  float: right;
+  margin: 20px;
+  padding: 5px;
+  background-color: rgb(49, 172, 255);
+  border: none;
+  width: 80px;
+  color: white;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+}
+.reply-input {
+  padding:8px;
+  width: 100%;
+}
+.input-container {
+  width: 50%;
+}
